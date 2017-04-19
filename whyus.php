@@ -197,7 +197,7 @@
     </div>
     <div class="col-sm-3">
         <h3>Commitment</h3>
-        <p>We are committed to serving our clients and ensure they are comfortable during their stay and time within our visinity.</p>
+        <p>We are committed to serving our clients and ensure they are comfortable during their stay and time within our visinity.The venue is tucked away from the noisy city center and their facilities are well taken care of. From the powder room to the parking area and clean-well serviced toilets, your guests are likely to have a great time at the venue.</p>
     </center>
     </div>
 <!-- principles -->

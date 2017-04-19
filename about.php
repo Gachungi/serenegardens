@@ -65,6 +65,9 @@
         <div class="container-fluid" style="background-color: purple; color: gold">
           <h2>Mazuri Gardens</h2>
 <p>Experience the serenity and comfort </p>
+<p>The garden is situated away from the hustles of the city center and the environment is very quiet, calm and serene. Perfect for a romantic wedding or getaway, Kentmere Gardens is also recommended by many couples who have had their event at the venue. They have a huge parking lot too.</p>
+
+<p>If you are the kind of person who loves nature then you’ll definitely fall in love with the Eden Bliss Gardens. The grounds are amazing and you can tell that they have been perfectly taken care of. They even have a guest house where you can spend the night before jetting off for your honeymoon.</p>
         </div>
 
             <div class="jumbotron" style="background-color: brown; color: white">

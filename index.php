@@ -61,11 +61,63 @@
           </div>
         </nav>
         <!-- End of nav-tabs --><br><br>
+
+<!-- start carousel -->
+  <div id="myCarousel" class="carousel slide" data-ride="carousel">
+  <!-- Indicators -->
+  <ol class="carousel-indicators">
+    <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+    <li data-target="#myCarousel" data-slide-to="1"></li>
+    <li data-target="#myCarousel" data-slide-to="2"></li>
+    <li data-target="#myCarousel" data-slide-to="3"></li>
+  </ol>
+
+  <!-- Wrapper for slides -->
+  <div class="carousel-inner" role="listbox">
+   <p> <div class="item active">
+      <img src="images/garden1.jpg" alt="" style="width:100%; height:450px">
+      <div class="carousel-caption"><br> 
+      <h4>Putting a smile</h4>              
+    </div>
+</div></p>
+   <p> <div class="item">
+      <img src="images/garden2.jpg" alt="" style="width:100%; height:450px">
+    </div></p>
+
+    <p><div class="item">
+      <img src="images/garden3.jpg" alt="" style="width:100%; height:450px">
+    </div></p>
+
+    <p><div class="item">
+      <img src="images/garden4.jpg" alt="" style="width:100%; height:450px">
+    </div>
+  </div></p>
+
+  <!-- Left and right controls -->
+  <a class="left carousel-control" href="#myCarousel" role="button" data-slide="prev">
+    <span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
+    <span class="sr-only">Previous</span>
+  </a>
+  <a class="right carousel-control" href="#myCarousel" role="button" data-slide="next">
+    <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
+    <span class="sr-only">Next</span>
+  </a>
+</div>
+</div>
+<!-- end of carousel--> 
+
         <div class="jumbotron">
-          <div class="container">
-            <img src="images/s1.JPG" style="width:700px;height:450px">
-            
+          <div class="container-fluid" style="background-color: purple; color: gold">
+            <div class="row">
+            <div class="col-sm-6">
+              <img src="images/garden2.jpg" style="width: 90%; height: 400px; padding: 10px">
+            </div>
+            <div class="col-sm-6">
+            <p>We are located in the posh Karen Estate, the venue has an amazing view with lots of space to hold a large crowd. You’ll get to experience leisure and luxury at Mazuri Gardens as the beauty of the grounds certainly delivers value for money.</p>
+            <p>If you are the kind of person who loves nature then you’ll definitely fall in love with the Mazuri Gardens. Our grounds are amazing and you can tell that they have been perfectly taken care of. We even have a guest house where you can spend the night before jetting off for your honeymoon.</p>
           </div>
+          </div>
+        </div>
         </div>
         <div class="container" style="background-color: brown; color: white">
           <h4>Contacts</h4>
