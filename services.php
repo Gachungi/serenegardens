@@ -61,16 +61,39 @@
           </div>
         </nav>
         <!-- End of nav-tabs --><br><br>
-
-<div class="jumbotron">
-            
-               <h4>Contacts</h4>
-            <h5>We are situated at Kipro Center Westlands opposite Parklands Baptise Church.</h5>
-            <h5>Tel: +254 738555205</h5>
-            <h5>Email: rwambui89@gmail.com</h5>
-        
+        <div class="container-fluid" style="background-color: purple; color: gold">
+          <p>The services we offer are</p>
+          <h3>Grounds for hire</h3>
+          <h4>Weddings, parties, private function, birthdays and exhibitions</h4>
+          <h3>Group Function </h3>
+          <h4>Birthday Parties, End Year Functions, Chama Meetings, Anniversaries, Family Fun Days and Campings</h4>
+          <h3>Conference and Workshop</h3>
+          <h4>Cooperate meeting, Team Buildings and Brain Storming Training</h4>
         </div>
 
+<div class="jumbotron" style="background-color: brown; color: white">
+        <div class="row">
+          <div class="col-sm-4">
+            <h4>Contacts</h4>
+            <h5>We are situated in Karen.</h5>
+            <h5>Tel: +254 738555205</h5>
+            <h5>Email: rwambui89@gmail.com</h5>
+          </div>
+          <div class="col-sm-4">
+            <h4>Social Media </h4>
+            <!-- font awesome -->
+            <i class="fa fa-facebook-square" aria-hidden="true"></i>
+            <i class="fa fa-twitter-square" aria-hidden="true"></i>
+            <i class="fa fa-pinterest-square" aria-hidden="true"></i>
+            <!--  end of font awesome -->
+            <h6 style="color: blue">&#8482; &#174; &#169; 2017 Mazuri Gardens</h6>
+          </div>
+          <div class="col-sm-4">
+            <h4>Policies</h4>
+            <h5>Terms and conditions apply</h5>
+          </div>
+        </div>
+      </div>
 
         <!-- Modal -->
         <div class="modal fade" id="myModal" role="dialog">

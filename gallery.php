@@ -63,11 +63,28 @@
         <!-- End of nav-tabs --><br><br>
 
             <div class="jumbotron" style="background-color: brown; color: white">
-               <h4>Contacts</h4>
-            <h5>We are situated at Kipro Center Westlands opposite Parklands Baptise Church.</h5>
+        <div class="row">
+          <div class="col-sm-4">
+            <h4>Contacts</h4>
+            <h5>We are situated in Karen.</h5>
             <h5>Tel: +254 738555205</h5>
             <h5>Email: rwambui89@gmail.com</h5>
           </div>
+          <div class="col-sm-4">
+            <h4>Social Media </h4>
+            <!-- font awesome -->
+            <i class="fa fa-facebook-square" aria-hidden="true"></i>
+            <i class="fa fa-twitter-square" aria-hidden="true"></i>
+            <i class="fa fa-pinterest-square" aria-hidden="true"></i>
+            <!--  end of font awesome -->
+            <h6 style="color: blue">&#8482; &#174; &#169; 2017 Mazuri Gardens</h6>
+          </div>
+          <div class="col-sm-4">
+            <h4>Policies</h4>
+            <h5>Terms and conditions apply</h5>
+          </div>
+        </div>
+      </div>
 
 
         <!-- Modal -->

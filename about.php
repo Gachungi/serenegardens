@@ -64,26 +64,37 @@
         <br><br><br>
         <div class="container-fluid" style="background-color: purple; color: gold">
           <h2>Mazuri Gardens</h2>
-<p>Experience the serenity and comfort </p>
-<p>The garden is situated away from the hustles of the city center and the environment is very quiet, calm and serene. Perfect for a romantic wedding or getaway, Kentmere Gardens is also recommended by many couples who have had their event at the venue. They have a huge parking lot too.</p>
+          <p>Mazuri Gardens is a beautiful, serene breath taking garden, ideal for relaxation, recreation, celebration and inspiration. A place one is not likely to forget after a visit. It is the perfect spot for private ,family or festive functions go ahead. Treat yourself visit us and experience the garden for yourself</p>
 
-<p>If you are the kind of person who loves nature then you’ll definitely fall in love with the Eden Bliss Gardens. The grounds are amazing and you can tell that they have been perfectly taken care of. They even have a guest house where you can spend the night before jetting off for your honeymoon.</p>
+<p>We are located at away from the hustles of the city center and the environment is very quiet, calm and serene. Perfect for a romantic wedding or getaway, Mazuri Gardens is also recommended by many couples who have had their event at the venue. We have a huge parking lot too.
+</p>
+
+
         </div>
 
-            <div class="jumbotron" style="background-color: brown; color: white">
-            <div class="row">
-            <div class="col-sm-4">
-               <h4>Contacts</h4>
-            <h5>We are situated at Karen next to Kenya School of Law.</h5>
+           <div class="jumbotron" style="background-color: brown; color: white">
+        <div class="row">
+          <div class="col-sm-4">
+            <h4>Contacts</h4>
+            <h5>We are situated in Karen.</h5>
             <h5>Tel: +254 738555205</h5>
             <h5>Email: rwambui89@gmail.com</h5>
           </div>
           <div class="col-sm-4">
-          <h4>Policies</h4>
-          <h5>Terms and conditions apply</h5>
+            <h4>Social Media </h4>
+            <!-- font awesome -->
+            <i class="fa fa-facebook-square" aria-hidden="true"></i>
+            <i class="fa fa-twitter-square" aria-hidden="true"></i>
+            <i class="fa fa-pinterest-square" aria-hidden="true"></i>
+            <!--  end of font awesome -->
+            <h6 style="color: blue">&#8482; &#174; &#169; 2017 Mazuri Gardens</h6>
           </div>
+          <div class="col-sm-4">
+            <h4>Policies</h4>
+            <h5>Terms and conditions apply</h5>
           </div>
-          </div>
+        </div>
+      </div>
 
 
         <!-- Modal -->
