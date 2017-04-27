@@ -30,16 +30,16 @@
             <div class="col-sm-8">
               <ul class="nav navbar-nav">
                 
-                <li class="active"><a href="index.html"><img id="img-header" src="images/serene.png" style="width:100px;height:50px"><span class="sr-only">(current)</span></a></li>
-                <li><a href="#"><span class="glyphicon glyphicon-home"></span></a></li>
-                <li><a href="about.php">About </a></li>
+                <li class="active" style="padding-right: 30px"><a href="index.php"><img id="img-header" src="images/serene.png" style="width:100px;height:50px"><span class="sr-only">(current)</span></a></li>
+                <li><i class="fa fa-home fa-4x" aria-hidden="true"></i></li>
+                <li style="color: blue"><a href="about.php">About </a></li>
                 <!--  services dropdown -->
                 <li class="dropdown">
                   <a class="dropdown-toggle" data-toggle="dropdown" href="#">Services <span class="caret"></span></a>
                   <ul class="dropdown-content">
                     <li><a href="services.php">Services</a></li>
                     <li><button type="button" class="btn btn-link btn-md">Feedback</button></li>
-                    <li><button type="button" class="btn btn-link btn-sm" data-toggle="modal" data-target="#myModal">Schedule a Visit</button></li>
+                    <li><button type="button" class="btn btn-link btn-sm" data-toggle="modal" data-target="#myModal">Make an Enquiry or Schedule a Visit</button></li>
                   </ul>
                 </li>
                 <!--  dropdown for services -->
@@ -51,8 +51,8 @@
               <div class="col-sm-4">
                 <div class="sign" id="signup">
                   <ul class="nav navbar-nav navbar-right" >
-                    <li><button type="button" class="btn btn-link btn-sm" data-toggle="modal" data-target="#mySign">Sign Up</button></li>
-                    <li><button type="button" class="btn btn-link btn-sm" data-toggle="modal" data-target="#myLogin"><a href="file:///C:/Users/Rahee/Documents/project/index.html#"><span class="glyphicon glyphicon-user"></span></a>Login</button></li>
+                    <li><button type="button" class="btn btn-link btn-sm" data-toggle="modal" data-target="#mySign"><i class="fa fa-user-plus fa-4x" aria-hidden="true"></i>Sign Up</button></li>
+                    <li><button type="button" class="btn btn-link btn-sm" data-toggle="modal" data-target="#myLogin"><i class="fa fa-user fa-4x" aria-hidden="true"></i>Login</button></li>
                   </ul>
                 </div>
                 </div><!--  end of col-sm-4 -->
@@ -61,7 +61,6 @@
           </div>
         </nav>
         <!-- End of nav-tabs --><br><br>
-
         <!-- Modal -->
         <div class="modal fade" id="myModal" role="dialog">
           <div class="modal-dialog">
@@ -180,7 +179,9 @@
  -->
  <br> <br>
  <body>
+ <div class="container-fluid" style="background-color:grey; color: black">
 <div class="row" id="why">
+ <h2 style="font-family: castellar; color: brown">Mazuri Gardens</h2>
     <center><h2>Why Us</h2></center>
     <center>
     <div class="col-sm-3">
@@ -197,7 +198,7 @@
     </div>
     <div class="col-sm-3">
         <h3>Commitment</h3>
-        <p>We are committed to serving our clients and ensure they are comfortable during their stay and time within our visinity.The venue is tucked away from the noisy city center and their facilities are well taken care of. From the powder room to the parking area and clean-well serviced toilets, your guests are likely to have a great time at the venue.</p>
+        <p>We are committed to serving our clients and ensure they are comfortable during their stay and time within our visinity.</p>
     </center>
     </div>
 <!-- principles -->
@@ -223,7 +224,7 @@
         <p>Any data submitted to us is kept confidential and  cannot be disclosed to third parties without our clients consent.</p>
         </center>
     </div>
-    
+    </div>
     <div class="jumbotron" style="background-color: brown; color: white">
         <div class="row">
           <div class="col-sm-4">

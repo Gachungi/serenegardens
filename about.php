@@ -30,16 +30,16 @@
             <div class="col-sm-8">
               <ul class="nav navbar-nav">
                 
-                <li class="active"><a href="index.html"><img id="img-header" src="images/serene.png" style="width:100px;height:50px"><span class="sr-only">(current)</span></a></li>
-                <li><a href="#"><span class="glyphicon glyphicon-home"></span></a></li>
-                <li><a href="about.php">About </a></li>
+                <li class="active" style="padding-right: 30px"><a href="index.php"><img id="img-header" src="images/serene.png" style="width:100px;height:50px"><span class="sr-only">(current)</span></a> </li>
+                <li><i class="fa fa-home fa-4x" aria-hidden="true"></i></li>
+                <li style="color: blue"><a href="about.php">About </a></li>
                 <!--  services dropdown -->
                 <li class="dropdown">
                   <a class="dropdown-toggle" data-toggle="dropdown" href="#">Services <span class="caret"></span></a>
                   <ul class="dropdown-content">
                     <li><a href="services.php">Services</a></li>
                     <li><button type="button" class="btn btn-link btn-md">Feedback</button></li>
-                    <li><button type="button" class="btn btn-link btn-sm" data-toggle="modal" data-target="#myModal">Schedule a Visit</button></li>
+                    <li><button type="button" class="btn btn-link btn-sm" data-toggle="modal" data-target="#myModal">Make an Enquiry or Schedule a Visit</button></li>
                   </ul>
                 </li>
                 <!--  dropdown for services -->
@@ -51,8 +51,8 @@
               <div class="col-sm-4">
                 <div class="sign" id="signup">
                   <ul class="nav navbar-nav navbar-right" >
-                    <li><button type="button" class="btn btn-link btn-sm" data-toggle="modal" data-target="#mySign">Sign Up</button></li>
-                    <li><button type="button" class="btn btn-link btn-sm" data-toggle="modal" data-target="#myLogin"><a href="file:///C:/Users/Rahee/Documents/project/index.html#"><span class="glyphicon glyphicon-user"></span></a>Login</button></li>
+                    <li><button type="button" class="btn btn-link btn-sm" data-toggle="modal" data-target="#mySign"><i class="fa fa-user-plus fa-4x" aria-hidden="true"></i>Sign Up</button></li>
+                    <li><button type="button" class="btn btn-link btn-sm" data-toggle="modal" data-target="#myLogin"><i class="fa fa-user fa-4x" aria-hidden="true"></i>Login</button></li>
                   </ul>
                 </div>
                 </div><!--  end of col-sm-4 -->
@@ -60,43 +60,38 @@
             </div>
           </div>
         </nav>
-        <!-- End of nav-tabs -->
+        <!-- End of nav-tabs --><br><br>
         <br><br><br>
-        <div class="container-fluid" style="background-color: purple; color: gold">
-          <h2>Mazuri Gardens</h2>
+        <div class="container-fluid" style="background-color: purple; color: cyan">
+          <h2 style="font-family: castellar; color: gold">Mazuri Gardens</h2>
           <p>Mazuri Gardens is a beautiful, serene breath taking garden, ideal for relaxation, recreation, celebration and inspiration. A place one is not likely to forget after a visit. It is the perfect spot for private ,family or festive functions go ahead. Treat yourself visit us and experience the garden for yourself</p>
-
-<p>We are located at away from the hustles of the city center and the environment is very quiet, calm and serene. Perfect for a romantic wedding or getaway, Mazuri Gardens is also recommended by many couples who have had their event at the venue. We have a huge parking lot too.
-</p>
-
-
+          <p>We are located at away from the hustles of the city center and the environment is very quiet, calm and serene. Perfect for a romantic wedding or getaway, Mazuri Gardens is also recommended by many couples who have had their event at the venue. We have a huge parking lot too.
+          </p>
+          <p>Mazuri Garden is tucked away from the noisy city center and their facilities are well taken care of. From the powder room to the parking area and clean-well serviced toilets, your guests are likely to have a great time at the venue.</p>
         </div>
-
-           <div class="jumbotron" style="background-color: brown; color: white">
-        <div class="row">
-          <div class="col-sm-4">
-            <h4>Contacts</h4>
-            <h5>We are situated in Karen.</h5>
-            <h5>Tel: +254 738555205</h5>
-            <h5>Email: rwambui89@gmail.com</h5>
-          </div>
-          <div class="col-sm-4">
-            <h4>Social Media </h4>
-            <!-- font awesome -->
-            <i class="fa fa-facebook-square" aria-hidden="true"></i>
-            <i class="fa fa-twitter-square" aria-hidden="true"></i>
-            <i class="fa fa-pinterest-square" aria-hidden="true"></i>
-            <!--  end of font awesome -->
-            <h6 style="color: blue">&#8482; &#174; &#169; 2017 Mazuri Gardens</h6>
-          </div>
-          <div class="col-sm-4">
-            <h4>Policies</h4>
-            <h5>Terms and conditions apply</h5>
+        <div class="jumbotron" style="background-color: brown; color: white">
+          <div class="row">
+            <div class="col-sm-4">
+              <h4>Contacts</h4>
+              <h5>We are situated in Karen.</h5>
+              <h5>Tel: +254 738555205</h5>
+              <h5>Email: rwambui89@gmail.com</h5>
+            </div>
+            <div class="col-sm-4">
+              <h4>Social Media </h4>
+              <!-- font awesome -->
+              <i class="fa fa-facebook-square" aria-hidden="true"></i>
+              <i class="fa fa-twitter-square" aria-hidden="true"></i>
+              <i class="fa fa-pinterest-square" aria-hidden="true"></i>
+              <!--  end of font awesome -->
+              <h6 style="color: blue">&#8482; &#174; &#169; 2017 Mazuri Gardens</h6>
+            </div>
+            <div class="col-sm-4">
+              <h4>Policies</h4>
+              <h5>Terms and conditions apply</h5>
+            </div>
           </div>
         </div>
-      </div>
-
-
         <!-- Modal -->
         <div class="modal fade" id="myModal" role="dialog">
           <div class="modal-dialog">
@@ -209,7 +204,6 @@
               
             </div>
             </div> <!-- End of modal -->
-
-        
-</body>
-</html>
+            
+          </body>
+        </html>

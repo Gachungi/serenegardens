@@ -1,85 +1,83 @@
 <!DOCTYPE html>
 <html>
 <head>
-  <title>try</title>
-  <script>
-    // Get the modal
-$(document).ready(function(){
-var modal = document.getElementById('myModal');
+	<title>try</title>
+	<link href="css/bootstrap.css" rel="stylesheet" type="text/css">
+    <link href="css/styles.css" rel="stylesheet" type="text/css">
+    <script type="text/javascript" src="js/jquery.js"></script>
+    <script type="text/javascript" src="js/bootstrap.js"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <script type="text/javascript" src="js/script.js"></script>
+    <link rel="stylesheet" type="text/css" media="screen" href="css/reset.css">
+    <link rel="stylesheet" type="text/css" media="screen" href="css/grid_24.css">
+    <link rel="stylesheet" type="text/css" media="screen" href="css/style.css">
+    <link rel="stylesheet" type="text/css" media="screen" href="css/demo.css">
+    <link href='http://fonts.googleapis.com/css?family=PT+Sans+Narrow:400,700' rel='stylesheet' type='text/css'>
+    <link href='http://fonts.googleapis.com/css?family=Great+Vibes' rel='stylesheet' type='text/css'>
+    <script src="js/jquery-1.7.min.js"></script>
+    <script src="js/jquery.easing.1.3.js"></script>
+    <script src="js/uCarousel.js"></script>
+	<script src="js/tms-0.4.1.js"></script>
+    <script>
+		$(document).ready(function(){
+		  $('.gallery')._TMS({
+			  show:0,
+			  pauseOnHover:true,
+			  prevBu:false,
+			  nextBu:false,
+			  playBu:false,
+			  duration:700,
+			  preset:'fade',
+			  pagination:$('.img-pags').uCarousel({show:3,shift:0, rows:1}),
+			  pagNums:false,
+			  slideshow:7000,
+			  numStatus:true,
+			  banners:false,
+			  waitBannerAnimation:false,
+			  progressBar:false
+		   })		
+		 })
+	  </script>
+  </head>
 
-// Get the button that opens the modal
-var btns = $(".b");
-
-
-
-// Get the <span> element that closes the modal
-var spans = $(".close");
-
-// When the user clicks the button, open the modal
-// btns.forEach(function (btn) {
-  btns.click(function() {
-      modal.style.display = "block";
-  });
-// });
-
-// When the user clicks on <span> (x), close the modal
-// spans.forEach(function(span) {
-  spans.click(function() {
-      modal.style.display = "none";
-  });
-// });
-
-// When the user clicks anywhere outside of the modal, close it
-window.onclick = function(event) {
-    if (event.target == modal) {
-        modal.style.display = "none";
-    }
-}
-});
-  </script>
-</head>
 <body>
-
-<button type="button" class="btn btn-info" data-toggle="collapse" data-target="#demo">View More</button>
-  <div id="demo" class="collapse">
-
-  <span><a href="#myModal"><button  type="button" class="b">BOOK NOW</button></a></span>
-
-  <div id="myModal" class="modal">
-
-  <!-- Modal content -->
-  <div class="modal-content">
-    <span class="close">&times;</span>
-    <p>Some text in the Modal..</p>
-    <div id="form">
-  <form action="/action_page.php">
-    <label for="fname">Your Name</label>
-    <input type="text" id="fname" name="firstname" placeholder="Your name..">
-
-   <label for="country">Gender</label>
-    <input type="radio" name="gender" value="male" checked> Male<br>
-     <input type="radio" name="gender" value="female"> Female<br>
-
-
-   <label for="country">Institution</label>
-    <select id="country" name="country">
-      <option value="australia">UON</option>
-      <option value="canada">KCA</option>
-      <option value="usa">KU</option>
-      <option value="usa">JKUAT</option>
-    </select>
-
-   <label for="lname">ID No</label>
-    <input type="text" id="lname" name="lastname" placeholder="Your ID No">
-
-   <label for="lname">Tell No</label>
-    <input type="text" id="lname" name="lastname" placeholder="Your Tell No">
-
-   <input type="submit" value="Submit">
-  </form>
-</div>
-  </div>
-
-</div>
+<section id="content"><div class="ic">Fuchsia Gardens, The Event Location</div>
+<div class="container_24">
+        	<div class="grid_24">
+<h4 class="top-1"><strong>Gallery</strong></h4>
+            </div>     
+            <div class="grid_19">
+                <div id="slide">		
+                    <div class="gallery">
+                        <ul class="items">
+                        	<li><img src="images/garden1-big.jpg" alt=""></li>
+							<li><img src="images/garden2-big.jpg" alt=""></li>
+                            <li><img src="images/garden3-big.jpg" alt=""></li>
+                            <li><img src="images/garden4-big.jpg" alt=""></li>
+                            <li><img src="images/garden5-big.jpg" alt=""></li>
+                        	
+                        </ul>
+                    </div>
+                 </div> 
+            </div>
+            <div class="grid_5">
+                <div class="pag">
+                     <div class="img-pags">
+                        <ul>
+                        	<li><a href="#"><img src="images/garden1.jpg" alt=""><span></span></a></li>
+							<li><a href="#"><img src="images/garden2.jpg" alt=""><span></span></a></li>
+                            <li><a href="#"><img src="images/garden3.jpg" alt=""><span></span></a></li>
+                            <li><a href="#"><img src="images/garden4.jpg" alt=""><span></span></a></li>
+                            <li><a href="#"><img src="images/garden5.jpg" alt=""><span></span></a></li>
+                          
+                       </ul>
+                    </div>
+                    <a href="#" class="gallery-button gallery-button-1" data-type="prevPage">&nbsp;</a>
+					<a href="#" class="gallery-button gallery-button-2" data-type="nextPage">&nbsp;</a>
+                </div>  
+            </div>
+            <div class="clear"></div>
+        </div>
+    </section> 
 </body>
 </html>

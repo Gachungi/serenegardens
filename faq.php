@@ -11,7 +11,7 @@
     
   </head>
   <body>
-    <!-- new nav -->
+     <!-- new nav -->
     <nav class="navbar navbar-default navbar-fixed-top">
       <div class="container-fluid">
         <!-- Brand and toggle get grouped for better mobile display -->
@@ -30,16 +30,16 @@
             <div class="col-sm-8">
               <ul class="nav navbar-nav">
                 
-                <li class="active"><a href="index.html"><img id="img-header" src="images/serene.png" style="width:100px;height:50px"><span class="sr-only">(current)</span></a></li>
-                <li><a href="#"><span class="glyphicon glyphicon-home"></span></a></li>
-                <li><a href="about.php">About </a></li>
+                <li class="active" style="padding-right: 30px"><a href="index.php"><img id="img-header" src="images/serene.png" style="width:100px;height:50px"><span class="sr-only">(current)</span></a> </li>
+                <li><i class="fa fa-home fa-4x" aria-hidden="true"></i></li>
+                <li style="color: blue"><a href="about.php">About </a></li>
                 <!--  services dropdown -->
                 <li class="dropdown">
                   <a class="dropdown-toggle" data-toggle="dropdown" href="#">Services <span class="caret"></span></a>
                   <ul class="dropdown-content">
                     <li><a href="services.php">Services</a></li>
                     <li><button type="button" class="btn btn-link btn-md">Feedback</button></li>
-                    <li><button type="button" class="btn btn-link btn-sm" data-toggle="modal" data-target="#myModal">Schedule a Visit</button></li>
+                    <li><button type="button" class="btn btn-link btn-sm" data-toggle="modal" data-target="#myModal">Make an Enquiry or Schedule a Visit</button></li>
                   </ul>
                 </li>
                 <!--  dropdown for services -->
@@ -51,8 +51,8 @@
               <div class="col-sm-4">
                 <div class="sign" id="signup">
                   <ul class="nav navbar-nav navbar-right" >
-                    <li><button type="button" class="btn btn-link btn-sm" data-toggle="modal" data-target="#mySign">Sign Up</button></li>
-                    <li><button type="button" class="btn btn-link btn-sm" data-toggle="modal" data-target="#myLogin"><a href="file:///C:/Users/Rahee/Documents/project/index.html#"><span class="glyphicon glyphicon-user"></span></a>Login</button></li>
+                    <li><button type="button" class="btn btn-link btn-sm" data-toggle="modal" data-target="#mySign"><i class="fa fa-user-plus fa-4x" aria-hidden="true"></i>Sign Up</button></li>
+                    <li><button type="button" class="btn btn-link btn-sm" data-toggle="modal" data-target="#myLogin"><i class="fa fa-user fa-4x" aria-hidden="true"></i>Login</button></li>
                   </ul>
                 </div>
                 </div><!--  end of col-sm-4 -->
@@ -60,8 +60,7 @@
             </div>
           </div>
         </nav>
-        <!-- End of nav-tabs --><br><br>
-
+        <!-- End of nav-tabs -->
         <!-- Modal -->
         <div class="modal fade" id="myModal" role="dialog">
           <div class="modal-dialog">
@@ -178,9 +177,10 @@
 
 <!-- start body
  -->
- <br><br>
+ <br><br><br><br>
  <body>
- <div class="container">
+ <div class="container-fluid" style="background-color: purple; color: gold">
+ <h2 style="font-family: castellar; color: cyan">Mazuri Gardens</h2>
  <h2>Frequently Asked Questions</h2>
 <h3>How do you operate?</h3>
 

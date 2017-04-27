@@ -11,7 +11,7 @@
     
   </head>
   <body>
-    <!-- new nav -->
+     <!-- new nav -->
     <nav class="navbar navbar-default navbar-fixed-top">
       <div class="container-fluid">
         <!-- Brand and toggle get grouped for better mobile display -->
@@ -30,16 +30,16 @@
             <div class="col-sm-8">
               <ul class="nav navbar-nav">
                 
-                <li class="active"><a href="index.html"><img id="img-header" src="images/serene.png" style="width:100px;height:50px"><span class="sr-only">(current)</span></a></li>
-                <li><a href="#"><span class="glyphicon glyphicon-home"></span></a></li>
-                <li><a href="about.php">About </a></li>
+                <li class="active" style="padding-right: 30px"><a href="index.php"><img id="img-header" src="images/serene.png" style="width:100px;height:50px"><span class="sr-only">(current)</span></a> </li>
+                <li><i class="fa fa-home fa-4x" aria-hidden="true"></i></li>
+                <li style="color: blue"><a href="about.php">About </a></li>
                 <!--  services dropdown -->
                 <li class="dropdown">
                   <a class="dropdown-toggle" data-toggle="dropdown" href="#">Services <span class="caret"></span></a>
                   <ul class="dropdown-content">
                     <li><a href="services.php">Services</a></li>
                     <li><button type="button" class="btn btn-link btn-md">Feedback</button></li>
-                    <li><button type="button" class="btn btn-link btn-sm" data-toggle="modal" data-target="#myModal">Schedule a Visit</button></li>
+                    <li><button type="button" class="btn btn-link btn-sm" data-toggle="modal" data-target="#myModal">Make an Enquiry or Schedule a Visit</button></li>
                   </ul>
                 </li>
                 <!--  dropdown for services -->
@@ -51,8 +51,8 @@
               <div class="col-sm-4">
                 <div class="sign" id="signup">
                   <ul class="nav navbar-nav navbar-right" >
-                    <li><button type="button" class="btn btn-link btn-sm" data-toggle="modal" data-target="#mySign">Sign Up</button></li>
-                    <li><button type="button" class="btn btn-link btn-sm" data-toggle="modal" data-target="#myLogin"><a href="file:///C:/Users/Rahee/Documents/project/index.html#"><span class="glyphicon glyphicon-user"></span></a>Login</button></li>
+                    <li><button type="button" class="btn btn-link btn-sm" data-toggle="modal" data-target="#mySign"><i class="fa fa-user-plus fa-4x" aria-hidden="true"></i>Sign Up</button></li>
+                    <li><button type="button" class="btn btn-link btn-sm" data-toggle="modal" data-target="#myLogin"><i class="fa fa-user fa-4x" aria-hidden="true"></i>Login</button></li>
                   </ul>
                 </div>
                 </div><!--  end of col-sm-4 -->
@@ -60,17 +60,57 @@
             </div>
           </div>
         </nav>
-        <!-- End of nav-tabs --><br><br>
-        <div class="container-fluid" style="background-color: purple; color: gold">
-          <p>The services we offer are</p>
-          <h3>Grounds for hire</h3>
-          <h4>Weddings, parties, private function, birthdays and exhibitions</h4>
-          <h3>Group Function </h3>
-          <h4>Birthday Parties, End Year Functions, Chama Meetings, Anniversaries, Family Fun Days and Campings</h4>
-          <h3>Conference and Workshop</h3>
-          <h4>Cooperate meeting, Team Buildings and Brain Storming Training</h4>
-        </div>
+        <!-- End of nav-tabs --><br><br><br><br>
 
+                <div class="container-fluid" style="background-color: purple; color: gold">
+                <h2 style="font-family: castellar; color: cyan">Mazuri Gardens</h2>
+          <p style="color: cyan">The services we offer are</p>
+<div class="row">
+<div class="col-sm-4">
+          <h3>Grounds for hire</h3>
+<img src="images/garden5.jpg" class="img-rounded" width="304" height="236">
+          <h4>Weddings and Exhibitions</h4>
+          <button type="button" class="" data-toggle="collapse" data-target="#demo" style="background-color: brown">View More</button>
+  <div id="demo" class="collapse">
+          <h5 style="color: aqua">Marry the love of your life in an enchanted garden ceremony, surrounded by natural sunlight and acres of green grass, trees, flowers and hills. It will be a dazzling event that you, your family and friends will never forget.</h5>
+          <h5 style="color: aqua">To begin your new life together, escape the ordinary and enjoy spectacular garden views, mouth-watering cuisine and unparalleled service. Every detail is creatively planned and elegantly presented to your specifications.</h5>
+          </div>
+          </div>
+          <div class="col-sm-4">
+          <h3>Group Function </h3>
+          <img src="images/garden7.jpg" class="img-rounded" width="304" height="236">
+          <h4>Parties and Functions</h4>
+          <button type="button" class="" data-toggle="collapse" data-target="#demo2" style="background-color: brown">View More</button>
+  <div id="demo2" class="collapse">
+  <h5 style="color: aqua">Our Group is Awesome</h5>
+  </div>
+          </div>
+          <div class="col-sm-4">
+          <h3>Conference and Workshop</h3>
+          <img src="images/garden6.jpg" class="img-rounded" width="304" height="236">
+          <h4>Meetings, Team Buildings and Trainings</h4>
+          <button type="button" class="" data-toggle="collapse" data-target="#demo3" style="background-color: brown">View More</button>
+  <div id="demo3" class="collapse">
+  <h5 style="color: aqua">Mazuri Gardens is graced with extensive landscaped gardens, which provide the ideal spot for an outdoor meeting, team building and training in the beautiful unspoiled environment.
+The venue has space to host your whole entourage of approximately 1,000ppl, and offers many design possibilities</h5>
+  </div>
+          </div>
+        </div>
+        <div class="Amenities" style="margin: 0 auto; width: 20%">
+        <h2>Amenities</h2>
+        <h4> 
+ <li>Ample parking </li>
+ 
+<li> Washroom Facilities</li>
+ 
+ <li>Photo Session spots</li>
+ 
+  <li>Photo Services</li>
+ 
+  <li>Tent Services available on request</li>
+</h4>
+</div>
+</div>
 <div class="jumbotron" style="background-color: brown; color: white">
         <div class="row">
           <div class="col-sm-4">
@@ -210,3 +250,4 @@
 
 </body>
 </html>
+

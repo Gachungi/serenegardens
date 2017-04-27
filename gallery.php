@@ -11,7 +11,7 @@
     
   </head>
   <body>
-    <!-- new nav -->
+     <!-- new nav -->
     <nav class="navbar navbar-default navbar-fixed-top">
       <div class="container-fluid">
         <!-- Brand and toggle get grouped for better mobile display -->
@@ -30,16 +30,16 @@
             <div class="col-sm-8">
               <ul class="nav navbar-nav">
                 
-                <li class="active"><a href="index.html"><img id="img-header" src="images/serene.png" style="width:100px;height:50px"><span class="sr-only">(current)</span></a></li>
-                <li><a href="#"><span class="glyphicon glyphicon-home"></span></a></li>
-                <li><a href="about.php">About </a></li>
+                <li class="active" style="padding-right: 30px"><a href="index.php"><img id="img-header" src="images/serene.png" style="width:100px;height:50px"><span class="sr-only">(current)</span></a> <h2 style="font-family: castellar; color: brown">Mazuri Gardens</h2></li>
+                <li><i class="fa fa-home fa-4x" aria-hidden="true"></i></li>
+                <li style="color: blue"><a href="about.php">About </a></li>
                 <!--  services dropdown -->
                 <li class="dropdown">
                   <a class="dropdown-toggle" data-toggle="dropdown" href="#">Services <span class="caret"></span></a>
                   <ul class="dropdown-content">
                     <li><a href="services.php">Services</a></li>
                     <li><button type="button" class="btn btn-link btn-md">Feedback</button></li>
-                    <li><button type="button" class="btn btn-link btn-sm" data-toggle="modal" data-target="#myModal">Schedule a Visit</button></li>
+                    <li><button type="button" class="btn btn-link btn-sm" data-toggle="modal" data-target="#myModal">Make an Enquiry or Schedule a Visit</button></li>
                   </ul>
                 </li>
                 <!--  dropdown for services -->
@@ -51,8 +51,8 @@
               <div class="col-sm-4">
                 <div class="sign" id="signup">
                   <ul class="nav navbar-nav navbar-right" >
-                    <li><button type="button" class="btn btn-link btn-sm" data-toggle="modal" data-target="#mySign">Sign Up</button></li>
-                    <li><button type="button" class="btn btn-link btn-sm" data-toggle="modal" data-target="#myLogin"><a href="file:///C:/Users/Rahee/Documents/project/index.html#"><span class="glyphicon glyphicon-user"></span></a>Login</button></li>
+                    <li><button type="button" class="btn btn-link btn-sm" data-toggle="modal" data-target="#mySign"><i class="fa fa-user-plus fa-4x" aria-hidden="true"></i>Sign Up</button></li>
+                    <li><button type="button" class="btn btn-link btn-sm" data-toggle="modal" data-target="#myLogin"><i class="fa fa-user fa-4x" aria-hidden="true"></i>Login</button></li>
                   </ul>
                 </div>
                 </div><!--  end of col-sm-4 -->
@@ -61,7 +61,28 @@
           </div>
         </nav>
         <!-- End of nav-tabs --><br><br>
+        <!-- images in gallery -->
 
+<div id="slide">
+       <div class="slider">
+          <ul class="items">
+              <li><img src="images/garden1.jpg" alt="" /></li>
+              <li><img src="images/garden2.jpg" alt="" /></li>
+              <li><img src="images/garden3.jpg" alt="" /></li>
+              <li><img src="images/garden4.jpg" alt="" /></li>
+              <li><img src="images/garden5.jpg" alt="" /></li>
+          </ul>
+       </div>
+       <ul class="pags">
+            <li><a href="#"><img src="images/garden1-small.jpg" alt=""><span></span></a></li>
+            <li><a href="#"><img src="images/garden2-small.jpg" alt=""><span></span></a></li>
+            <li><a href="#"><img src="images/garden3-small.jpg" alt=""><span></span></a></li>
+            <li><a href="#"><img src="images/garden4-small.jpg" alt=""><span></span></a></li>
+            
+       </ul>
+       <a href="#" class="prev">&nbsp;</a><a href="#" class="next">&nbsp;</a>
+    </div>
+<!-- end of images -->
             <div class="jumbotron" style="background-color: brown; color: white">
         <div class="row">
           <div class="col-sm-4">
@@ -81,6 +102,7 @@
           </div>
           <div class="col-sm-4">
             <h4>Policies</h4>
+            <h5>All Rights Reserved</h5>
             <h5>Terms and conditions apply</h5>
           </div>
         </div>

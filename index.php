@@ -8,7 +8,6 @@
     <script type="text/javascript" src="js/bootstrap.js"></script>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <script type="text/javascript" src="js/script.js"></script>
-    
   </head>
   <body>
     <!-- new nav -->
@@ -30,16 +29,16 @@
             <div class="col-sm-8">
               <ul class="nav navbar-nav">
                 
-                <li class="active"><a href="index.html"><img id="img-header" src="images/serene.png" style="width:100px;height:50px"><span class="sr-only">(current)</span></a></li>
-                <li><a href="#"><span class="glyphicon glyphicon-home"></span></a></li>
-                <li><a href="about.php">About </a></li>
+                <li class="active" style="padding-right: 30px"><a href="index.php"><img id="img-header" src="images/serene.png" style="width:100px;height:50px"><span class="sr-only">(current)</span></a> <h2 style="font-family: castellar; color: black">Mazuri Gardens</h2></li>
+                <li><i class="fa fa-home fa-4x" aria-hidden="true"></i></li>
+                <li style="color: blue"><a href="about.php">About </a></li>
                 <!--  services dropdown -->
                 <li class="dropdown">
                   <a class="dropdown-toggle" data-toggle="dropdown" href="#">Services <span class="caret"></span></a>
                   <ul class="dropdown-content">
                     <li><a href="services.php">Services</a></li>
                     <li><button type="button" class="btn btn-link btn-md">Feedback</button></li>
-                    <li><button type="button" class="btn btn-link btn-sm" data-toggle="modal" data-target="#myModal">Schedule a Visit</button></li>
+                    <li><button type="button" class="btn btn-link btn-sm" data-toggle="modal" data-target="#myModal">Make an Enquiry or Schedule a Visit</button></li>
                   </ul>
                 </li>
                 <!--  dropdown for services -->
@@ -51,8 +50,8 @@
               <div class="col-sm-4">
                 <div class="sign" id="signup">
                   <ul class="nav navbar-nav navbar-right" >
-                    <li><button type="button" class="btn btn-link btn-sm" data-toggle="modal" data-target="#mySign">Sign Up</button></li>
-                    <li><button type="button" class="btn btn-link btn-sm" data-toggle="modal" data-target="#myLogin"><a href="file:///C:/Users/Rahee/Documents/project/index.html#"><span class="glyphicon glyphicon-user"></span></a>Login</button></li>
+                    <li><button type="button" class="btn btn-link btn-sm" data-toggle="modal" data-target="#mySign"><i class="fa fa-user-plus fa-4x" aria-hidden="true"></i>Sign Up</button></li>
+                    <li><button type="button" class="btn btn-link btn-sm" data-toggle="modal" data-target="#myLogin"><i class="fa fa-user fa-4x" aria-hidden="true"></i>Login</button></li>
                   </ul>
                 </div>
                 </div><!--  end of col-sm-4 -->
@@ -62,7 +61,7 @@
         </nav>
         <!-- End of nav-tabs --><br><br>
         <!-- start carousel -->
-        <div id="myCarousel" class="carousel slide" data-ride="carousel">
+        <div id="myCarousel" class="carousel slide" data-ride="carousel" style="height: 420px">
           <!-- Indicators -->
           <ol class="carousel-indicators">
             <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
@@ -75,7 +74,7 @@
             <p> <div class="item active">
               <img src="images/garden1.jpg" alt="" style="width:100%; height:450px">
               <div class="carousel-caption"><br>
-                <h4>Experience the serenity and comfort </h4>
+                <h4 style="font-family: castellar">Experience the serenity and comfort </h4>
               </div>
             </div></p>
             <p> <div class="item">
@@ -109,8 +108,8 @@
         </div>
       </div>
       <!-- end of carousel-->
-      <div class="jumbotron">
-        <div class="container-fluid" style="background-color: purple; color: gold">
+      <div class="jumbotron" style="height: 410px">
+        <div class="container-fluid" style="background-color: grey; color: black">
           <div class="row">
             <div class="col-sm-6">
               <img src="images/garden5.jpg" style="width: 90%; height: 400px; padding: 10px">
@@ -122,26 +121,28 @@
           </div>
         </div>
       </div>
+     
       <div class="jumbotron" style="background-color: brown; color: white">
         <div class="row">
           <div class="col-sm-4">
-            <h4>Contacts</h4>
-            <h5>We are situated in Karen.</h5>
-            <h5>Tel: +254 738555205</h5>
-            <h5>Email: rwambui89@gmail.com</h5>
+            <h4 style="color: black">Contacts</h4>
+            <h5 style="color: aqua">We are situated in Karen.</h5>
+            <h5 style="color: aqua">Tel: +254 738555205</h5>
+            <h5 style="color: aqua">Email: rwambui89@gmail.com</h5>
           </div>
           <div class="col-sm-4">
-            <h4>Social Media </h4>
+            <h4 style="color: black">Social Media </h4>
             <!-- font awesome -->
-            <i class="fa fa-facebook-square" aria-hidden="true"></i>
-            <i class="fa fa-twitter-square" aria-hidden="true"></i>
-            <i class="fa fa-pinterest-square" aria-hidden="true"></i>
+            <i class="fa fa-facebook-square" aria-hidden="true" style="color: blue"></i>
+            <i class="fa fa-twitter-square" aria-hidden="true" style="color: blue"></i>
+            <i class="fa fa-pinterest-square" aria-hidden="true" style="color: blue"></i>
             <!--  end of font awesome -->
-            <h6 style="color: blue">&#8482; &#174; &#169; 2017 Mazuri Gardens</h6>
+            <h6 style="color: aqua">&#8482; &#174; &#169; 2017 Mazuri Gardens</h6>
           </div>
           <div class="col-sm-4">
-            <h4>Policies</h4>
-            <h5>Terms and conditions apply</h5>
+            <h4 style="color: black">Policies</h4>
+            <h5 style="color: aqua">Terms and conditions apply</h5>
+            <h5 style="color: aqua">All Rights Reserved</h5>
           </div>
         </div>
       </div>
@@ -155,12 +156,13 @@
           <div class="modal-content">
             <div class="modal-header">
               <button type="button" class="close" data-dismiss="modal">&times;</button>
-              <h4 class="modal-title">Schedule a Visit</h4>
+              <h4 class="modal-title">Make an Enquiry or Schedule a Visit</h4>
             </div>
             <div class="modal-body">
               <p>Personal Information.</p>
               
               <div id="form">
+              <form action="#" method="POST">
                 <form action="/action_page.php">
                   <label for="fname">Your Name</label>
                   <input type="text" id="fname" name="firstname" placeholder="Your name.."><br><br>
@@ -169,12 +171,12 @@
                   <input type="radio" name="gender" value="female"> Female
                   <input type="radio" name="gender" value="other" checked> Other<br><br>
                   <label for="lname">ID No</label>
-                  <input type="number" id="lname" name="lastname" placeholder="Your ID No">
+                  <input type="number" id="id" name="id" placeholder="Your ID No">
                   <label for="lname">Tell No</label>
-                  <input type="number" id="lname" name="lastname" placeholder="Your Tell No"><br><br>
-                  <label for="reason">Please indicate a brief reason for the visit</label>
+                  <input type="number" id="telphone" name="telphone" placeholder="Your Tell No"><br><br>
+                  <label for="reason">Please indicate a brief reason for the Enquiry or visit</label>
                   <input type="text" id="reason" name="reason" placeholder="Your reason"><br><br>
-                  <input type="submit" value="Submit">
+                  <input type="submit" name ="submit" value="Submit">
                 </form>
               </div>
               <!--  svvbn -->
@@ -261,3 +263,44 @@
           </div> <!-- End of modal -->
         </body>
       </html>
+
+      <?php
+$servername = "localhost";
+$username = "username";
+$password = "password";
+$dbname = "mazuri";
+
+//INSERT FROM WEBPAGE
+    if (isset ($_POST ['submit']))
+    {
+    extract($_POST);
+    
+//connect to the server
+   $connect=mysqli_connect("localhost", "root", "", "mazuri");
+//query
+    $query="INSERT INTO Visit VALUES ('$id, $firstname, $gender, $telphone, $reason');";
+    //execute the query
+    mysqli_query($connect, "$query");
+    echo "successfull";
+    }
+
+    // // Create connection
+//  $conn=mysqli_connect("localhost", "root", "", "mazuri");
+
+// // Check connection
+// if ($conn->connect_error) {
+//     die("Connection failed: " . $conn->connect_error);
+// } 
+
+// $sql = "INSERT INTO Visit (ID, Name, Gender, Telphone, Visit)
+// VALUES ('12121212', 'Wambo', 'Female', '67896789', 'Hello')";
+
+// if ($conn->query($sql) === TRUE) {
+//     echo "New record created successfully";
+// } else {
+//     echo "Error: " . $sql . "<br>" . $conn->error;
+// }
+
+// $conn->close();
+
+    ?>
